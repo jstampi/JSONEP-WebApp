@@ -1,7 +1,7 @@
 
 function testGet(){
 
-    var url = "https://script.google.com/macros/s/AKfycbwN6WTdK3tHNh_mj5mrLKgJ23xvE-zP1W1r7ReeVsKofGPkmmjmLG_xrc5D-1Gurn-J/exec";
+    var url = "https://script.google.com/macros/s/AKfycbxertJ-M3g9l8QkhQG5JDRCz_QO_udmqvkpLCZu9X5p9wuVdrAua_K32Q9DpBDuhRnJ/exec";
 
     fetch(url)
         .then(d => d.json())
@@ -11,7 +11,7 @@ function testGet(){
 }
 
 function testPost() {
-    var url = "https://script.google.com/macros/s/AKfycbzTnJ9pSuhtNPLQ0uCsjnCRy9o-3Sszfr_jd11b0fSO23euiup-MHbx6ckycS2pvabM/exec";
+    var url = "https://script.google.com/macros/s/AKfycbxertJ-M3g9l8QkhQG5JDRCz_QO_udmqvkpLCZu9X5p9wuVdrAua_K32Q9DpBDuhRnJ/exec";
     
     fetch(url, {
         method: 'POST',
