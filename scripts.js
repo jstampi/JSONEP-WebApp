@@ -22,7 +22,7 @@ function testPost(e){
         },
         redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({first: 'Japeth', phone: '582-245-2525', last:'Sunbro'}) // body data type must match "Content-Type" header
+        body: JSON.stringify({first: "Japeth", phone: "582-245-2525", last:"Sunbro"}) // body data type must match "Content-Type" header
       });
 }      
           //{first:"Macron", phone:"88-555-1212", last:"Putin"}
