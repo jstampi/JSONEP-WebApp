@@ -10,4 +10,13 @@ function testGet(){
         });
 }
 
-document.getElementById("btn").addEventListener("click", testGet);   
+function testPost() {
+    var url = "https://script.google.com/macros/s/AKfycbzTnJ9pSuhtNPLQ0uCsjnCRy9o-3Sszfr_jd11b0fSO23euiup-MHbx6ckycS2pvabM/exec";
+    
+    fetch(url, {
+        method: 'POST',
+        mode: 
+}
+document.getElementById("btn").addEventListener("click", testGet);  
+document.getElementById("btn1").addEventListener("click", testPost);  
+    
