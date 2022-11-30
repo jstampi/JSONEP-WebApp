@@ -22,6 +22,8 @@ function testPost() {
         },
         redirect: 'follow',
         body:JSON.stringify({first:"Macron", phone:"88-555-1212", last:"Putin"})
+        .then(d => {document.getElementById("app").textContent = d[0].status;
+        });
 }
 document.getElementById("btn").addEventListener("click", testGet);  
 document.getElementById("btn1").addEventListener("click", testPost);  
