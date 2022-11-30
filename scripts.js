@@ -1,7 +1,7 @@
 
 function testGet(){
 
-    var url = "https://script.google.com/macros/s/AKfycby2KHvf9qoiJZcPode_Jza2zReMQOcjKHCLrUQMVazlAkE2jKW1hcS81UYFksCMux82/exec"
+    var url = "https://script.google.com/macros/s/AKfycbz-DqUyCCesoRrso1juvSIL3wgxK92oXyjihvU9wIz4bfWeqdFGRlqwmP99OaiV2trM/exec"
         .then(d => d.json())
         .then(d => {
             document.getElementById("app").textContent =  d[0].status; 
@@ -9,7 +9,7 @@ function testGet(){
 }
 
 function testPost(e){
-    var url = "https://script.google.com/macros/s/AKfycby2KHvf9qoiJZcPode_Jza2zReMQOcjKHCLrUQMVazlAkE2jKW1hcS81UYFksCMux82/exec";
+    var url = "https://script.google.com/macros/s/AKfycbz-DqUyCCesoRrso1juvSIL3wgxK92oXyjihvU9wIz4bfWeqdFGRlqwmP99OaiV2trM/exec";
 
     fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
