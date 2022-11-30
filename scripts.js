@@ -1,7 +1,7 @@
 
 function testGet(){
 
-    var url = "https://script.google.com/macros/s/AKfycbxertJ-M3g9l8QkhQG5JDRCz_QO_udmqvkpLCZu9X5p9wuVdrAua_K32Q9DpBDuhRnJ/exec";
+    var url = "https://script.google.com/macros/s/AKfycbwu0-BCEQgBzTzZF9yZ_AHjS74PqeB44AFIWhrqrWSLJCZS6zaGEgUVyor6qL-zISlh/exec";
 
     fetch(url)
         .then(d => d.json())
@@ -11,7 +11,7 @@ function testGet(){
 }
 
 function testPost(e){
-    var url = "https://script.google.com/macros/s/AKfycbz53Q85uCtvKMAqJwLAd301Ovkaw62s0l-A5MKV2YrO-33udRsb8PeFkGPqbok1ySaT/exec";
+    var url = "https://script.google.com/macros/s/AKfycbwu0-BCEQgBzTzZF9yZ_AHjS74PqeB44AFIWhrqrWSLJCZS6zaGEgUVyor6qL-zISlh/exec";
 
     fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
