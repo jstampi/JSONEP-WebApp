@@ -9,7 +9,7 @@ function testGet(){
 }
 
 function testPost(e){
-    var url = "https://script.google.com/macros/s/AKfycbz-DqUyCCesoRrso1juvSIL3wgxK92oXyjihvU9wIz4bfWeqdFGRlqwmP99OaiV2trM/exec";
+    var url = "https://script.google.com/macros/s/AKfycbzY6fI9Cxn4EaGCbfXYSArtxwxoOjqhaMc3aVTLsGORcX53DHtTbRJRI4Y9_fIUBT1B/exec";
 
     fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
