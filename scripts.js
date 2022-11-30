@@ -21,7 +21,7 @@ function testPost() {
                 'Content-Type': 'application/json'
             },
             redirect: 'follow',
-            body:JSON.stringify()        
+            body: JSON.stringify({first:"Macron", phone:"88-555-1212", last:"Putin"})        
           });
 }
           
