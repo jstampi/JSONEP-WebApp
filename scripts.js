@@ -1,7 +1,7 @@
 
 function testGet(){
 
-    var url = "https://script.google.com/macros/s/AKfycbz-DqUyCCesoRrso1juvSIL3wgxK92oXyjihvU9wIz4bfWeqdFGRlqwmP99OaiV2trM/exec"
+    var url = "https://script.google.com/macros/s/AKfycbx601vDvwkwBDQpvKeed8o0N3OwRH01alUywy4kain2BXJ4LxdhW5_H4aE6BWVFhY8A/exec"
     fetch(url)
         .then(d => d.json())
         .then(d => {
