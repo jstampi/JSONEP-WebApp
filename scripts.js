@@ -15,7 +15,13 @@ function testPost() {
     
     fetch(url, {
         method: 'POST',
-        mode: 
+        mode: 'no-cors',
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        redirect: 'follow',
+        body:JSON.stringify({first:"Macron", phone:"88-555-1212", last:"Putin"})
 }
 document.getElementById("btn").addEventListener("click", testGet);  
 document.getElementById("btn1").addEventListener("click", testPost);  
